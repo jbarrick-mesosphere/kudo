@@ -4,8 +4,5 @@ kind: Instance
 metadata:
   name: my-instance
 spec:
-  operatorVersion:
-    name: job-operator
-    kind: OperatorVersion
   parameters:
     LABEL: "hello"

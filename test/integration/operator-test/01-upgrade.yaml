@@ -3,9 +3,5 @@ kind: Instance
 metadata:
   name: my-instance
 spec:
-  operatorVersion:
-    name: test-operator-1.0
-    kind: OperatorVersion
-    namespace: default
   parameters:
     REPLICAS: "4"
